@@ -8,7 +8,6 @@ public class HeroCharacter : MonoBehaviour
 {
     private int health = 100;
     private bool _gameOver;
-    public TextMeshProUGUI heroHealthText;
 
     private void Start()
     {
@@ -18,7 +17,6 @@ public class HeroCharacter : MonoBehaviour
 
     void Update()
     {
-        heroHealthText.text = "Health" + "\n" + health;
 
         if (_gameOver)
         {

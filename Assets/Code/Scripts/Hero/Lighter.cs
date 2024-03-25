@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     public KeyCode keyTrigger = KeyCode.F;
     public GameObject lighter;
     void Start()
     {
-            lighter.SetActive(false);    
+        lighter.SetActive(false);    
     }
     void Update()
     {

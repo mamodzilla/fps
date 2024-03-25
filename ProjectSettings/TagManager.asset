@@ -6,11 +6,15 @@ TagManager:
   tags:
   - EnemyPoints
   - Hero
+  - CheckObject
+  - CheckObject1
+  - BorderPoints
+  - CheckObject2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacle
   - Water
   - UI
   - 

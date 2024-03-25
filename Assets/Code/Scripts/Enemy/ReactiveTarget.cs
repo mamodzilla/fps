@@ -15,7 +15,7 @@ public class ReactiveTarget : MonoBehaviour
         if (enemyCharacter != null) enemyCharacter.ReactToHit(damage);
         if (enemyCharacter.health <= 0)
         {
-            enemyCharacter._alive = false;
+            enemyCharacter._isAlive = false;
             StartCoroutine(DieCoroutine(3));
         }
         

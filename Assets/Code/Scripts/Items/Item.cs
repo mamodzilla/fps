@@ -9,13 +9,6 @@ public class Item : MonoBehaviour
     public int countItem;
     public bool _isStackable;
 
-    public float xHandPosition;
-    public float yHandPosition;
-    public float zHandPosition;
-    public float xHandRotation;
-    public float yHandRotation;
-    public float zHandRotation;
-
     [Multiline(5)]
     public string descriptionItem;
     public string iconPath;

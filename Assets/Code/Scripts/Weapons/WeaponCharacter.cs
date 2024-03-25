@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class WeaponCharacter : MonoBehaviour
 {
-    public bool _isFirearms;
+    public bool _isFirearm;
     public int damage;
     public float range;
     public float fireRate;
